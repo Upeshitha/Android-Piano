@@ -230,6 +230,11 @@
                 android:layout_marginLeft="2dp"
                 android:layout_toRightOf="@id/p34" />
 
+            <Button
+                android:id="@+id/b1"
+                android:layout_toRightOf="@+id/p1"
+                style="@style/black_piano_key_style"/>
+
             <TextView
                 android:id="@+id/tc3"
                 style="@style/style_for_TextView_keyText3"

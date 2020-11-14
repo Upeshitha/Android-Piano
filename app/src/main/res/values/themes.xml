@@ -101,4 +101,13 @@
         <item name="android:layout_alignBottom">@id/p7</item>
     </style>
 
+    <style name="black_piano_key_style">
+        <item name="android:layout_height">110dp</item>
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_marginTop">100dp</item>
+        <!--Custom Drwable file-->
+        <item name="background">@drawable/black_piano_key_selector</item>
+        <item name="android:layout_marginLeft">14dp</item>
+    </style>
+
 </resources>

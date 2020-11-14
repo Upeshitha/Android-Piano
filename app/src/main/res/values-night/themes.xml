@@ -13,4 +13,16 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <!-- This style will be used for the foremost key of the piano -->
+    <style name="first_key_style_for_pink_key" >
+        <item name="android:layout_width">45dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_marginTop">100dp</item>
+        <!--Custom Drawable file-->
+        <item name="android:background">@drawable/pressed_and_normal_selector</item>
+        <item name="android:stateListAnimator" tools:targetApi="lollipop">@null</item>
+
+    </style>
+
 </resources>

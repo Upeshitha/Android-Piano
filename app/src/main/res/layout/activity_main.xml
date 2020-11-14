@@ -1,32 +1,234 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:paddingRight="16dp"
-    android:paddingLeft="16dp"
-    android:paddingBottom="16dp"
-    android:gravity="top|center"
     android:background="#B18181"
-    >
+    android:gravity="top|center"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
 
     <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <RelativeLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
 
-             >
+            >
 
             <Button
-                android:id="@+id/button"
-                style="@style/first_key_style_for_pink_key"
-                />
+                android:id="@+id/p1"
+                style="@style/first_key_style_for_pink_key" />
+
+            <Button
+                android:id="@+id/p2"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p1" />
+
+            <Button
+                android:id="@+id/p3"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p2" />
+
+            <Button
+                android:id="@+id/p4"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p3" />
+
+            <Button
+                android:id="@+id/p5"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p4" />
+
+            <Button
+                android:id="@+id/p6"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p5" />
+
+            <Button
+                android:id="@+id/p7"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p6" />
+
+            <Button
+                android:id="@+id/p8"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p7" />
+
+            <Button
+                android:id="@+id/p9"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p8" />
+
+            <Button
+                android:id="@+id/p10"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p9" />
+
+            <Button
+                android:id="@+id/p11"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p10" />
+
+            <Button
+                android:id="@+id/p12"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p11" />
+
+            <Button
+                android:id="@+id/p13"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p12" />
+
+            <Button
+                android:id="@+id/p14"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p13" />
+
+            <Button
+                android:id="@+id/p15"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p14" />
+
+            <Button
+                android:id="@+id/p16"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p15" />
+
+            <Button
+                android:id="@+id/p17"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p16" />
+
+            <Button
+                android:id="@+id/p18"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p17" />
+
+            <Button
+                android:id="@+id/p19"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p18" />
+
+            <Button
+                android:id="@+id/p20"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p19" />
+
+            <Button
+                android:id="@+id/p21"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p20" />
+
+            <Button
+                android:id="@+id/p22"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p21" />
+
+            <Button
+                android:id="@+id/p23"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p22" />
+
+            <Button
+                android:id="@+id/p24"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p23" />
+
+            <Button
+                android:id="@+id/p25"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p24" />
+
+            <Button
+                android:id="@+id/p26"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p25" />
+
+            <Button
+                android:id="@+id/p27"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p26" />
+
+            <Button
+                android:id="@+id/p28"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p27" />
+
+            <Button
+                android:id="@+id/p29"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p28" />
+
+            <Button
+                android:id="@+id/p30"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p29" />
+
+            <Button
+                android:id="@+id/p31"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p30" />
+
+            <Button
+                android:id="@+id/p32"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p31" />
+
+            <Button
+                android:id="@+id/p33"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p32" />
+
+            <Button
+                android:id="@+id/p34"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p33" />
+
+            <Button
+                android:id="@+id/p35"
+                style="@style/common_key_style_for_reset_of_the_piano_keys"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/p34" />
 
 
         </RelativeLayout>
